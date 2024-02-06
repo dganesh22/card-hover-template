@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+	.container {
+		width: 100%;
+		position: relative;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container .card {
+		max-width: 100%;
+		height: auto;
+		flex-direction: column;
+		background: transparent;
+		margin: -20px 0;
+	}
+
+	.container .card .imgBx {
+		position: relative;
+	}
+
+	.container .card .imgBx,
+	.container .card:hover .imgBx {
+		width: 80%;
+		height: 200px;
+		top: 100px;
+		left: 10%;
+	}
+
+	.container .card .imgBx img,
+	.container .card:hover .imgBx img {
+		max-width: 100px;
+	}
+
+	.container .card .content {
+		position: relative;
+		width: 100%;
+		background: #fff;
+		box-shadow: none;
+		border-top: 100px solid #fff;
+	}
+}
